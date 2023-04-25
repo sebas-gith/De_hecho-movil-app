@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "react-native-course",
+    "slug": "react-native-course",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sebas03.reactnativecourse"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d1e54cf-588c-4f15-a3cd-72cd418ef767"
+      }
+    }
+  }
+}
